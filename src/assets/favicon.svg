@@ -1,0 +1,15 @@
+<!-- SL Real Estate favicon (32x32) -->
+<svg width="34"  height="34"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .primary { fill: #0B3558; }
+    </style>
+  </defs>
+
+  <!-- Simple house shape -->
+  <polygon class="primary" points="4,16 16,4 28,16 25,16 16,8 7,16" />
+
+  <!-- SL initials -->
+  <text x="16" y="27" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700" font-size="12" fill="#0B3558">SL</text>
+</svg>

@@ -1,0 +1,36 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="auto" height="90" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">SL Real Estate logo</title>
+  <desc id="desc">Navy geometric house icon above large serif letters "SL" with "REAL ESTATE" below on a transparent background.</desc>
+
+  <defs>
+    <!-- primary color -->
+    <style>
+      .primary { fill: white; }
+      .sl { font-family: Georgia, "Times New Roman", Times, serif; font-weight: 700; }
+      .tag { font-family: Arial, Helvetica, sans-serif; font-weight: 600; letter-spacing: 6px; }
+    </style>
+  </defs>
+
+  <!-- Center group -->
+  <g transform="translate(0,0)">
+
+    <!-- Roof (triangle with slight overhangs) -->
+    <polygon class="primary" points="140,260 400,80 660,260 600,260 400,140 200,260" />
+
+    <!-- Small window under the roof peak -->
+    <g transform="translate(340,210)">
+      <rect class="primary" x="0" y="0" width="28" height="28" />
+      <rect class="primary" x="38" y="0" width="28" height="28" />
+      <rect class="primary" x="0" y="38" width="28" height="28" />
+      <rect class="primary" x="38" y="38" width="28" height="28" />
+    </g>
+
+    <!-- Big SL letters -->
+    <text class="primary sl" x="400" y="480" text-anchor="middle" font-size="260">SL</text>
+
+    <!-- REAL ESTATE tagline -->
+    <text class="primary tag" x="400" y="620" text-anchor="middle" font-size="72" text-transform="uppercase">REAL ESTATE</text>
+
+  </g>
+</svg>
