@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     
-    <div className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id="contact">
+    <div className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id="Contact">
       {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-transparent z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
