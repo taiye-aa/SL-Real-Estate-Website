@@ -35,7 +35,7 @@ const Contact = () => {
   event.target.reset();}, 2000);
 } else {
   setResult("Failed to send");
-  toast("Failed to send message. Please try again later.");
+  
 }
     
     
