@@ -18,7 +18,7 @@ const Testimonials = () => {
            <div className='flex flex-col gap-5 sm:flex-row'>
                  {testimonials.map((testimonial, id)=>{
                 return(
-                    <div key={id} className=' max-w-[340px] shadow-xl bg-[#F5F5DC] rounded px-8 py-6 text-center'>
+                    <div key={id} className=' max-w-[340px] shadow-xl bg-[#F5F5F5] rounded px-8 py-6 text-center'>
                         <img className='w-20 h-20 rounded-full mx-auto mb-4'src={testimonial.image} alt={testimonial.alt} />
                         <h2 className='text-lg sm:text-xl text-gray-700 font-medium'>{testimonial.name}</h2>
                         <p className='text-gray-500 mb-4 text-sm'>{testimonial.title}</p>
